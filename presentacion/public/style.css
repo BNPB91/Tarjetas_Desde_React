@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #f4dfe2,
+    #fddcd4,
+    #fddcc3,
+    #f0e0b4,
+    #d5e7b0,
+    #bfeab4,
+    #a5edbe,
+    #86efce,
+    #72eed6,
+    #5cede0,
+    #41ecea,
+    #10eaf4
+  );
+  height: 100vh;
+}
+#nav {
+  height: 10%;
+  /* background: #a2a2a2; */
+  border-radius: 1em;
+  margin: 1em;
+  display: flex;
+  font-size: 3em;
+}
+
+h1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: rgba(66, 63, 63, 0.76);
+  margin: auto;
+  font-family: "Anton", sans-serif;
+  text-shadow: 2px 3px 0px #898999;
+  line-height: 1.2;
+}
+
+h1:hover {
+  color: red;
+}
+
+span {
+  display: flex;
+  align-content: center;
+}
+
+article :hover::first-line {
+  color: red;
+  font-size: 1.3em;
+}
+
+#contenedor {
+  width: 1200px;
+  height: 1000px;
+  /* background: #d8d8d8; */
+  margin: 0.5em auto;
+  padding: 0.5em;
+}
+
+#contenido {
+  height: 100%;
+  background: white;
+}
+
+#section {
+  /* height: 95%; */
+  width: 100%;
+  /* background: #a4a4a4; */
+  border-radius: 1em;
+  margin: 0.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+article {
+  font-family: "Indie Flower", cursive;
+  margin: auto;
+  display: flex;
+  font-size: 1em;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#articulo1:hover {
+  color: white;
+  background: black;
+}
+
+/* #articulo1:hover::first-line {
+  color: red;
+  font-size: 2em;
+} */
+
+#articulo1 {
+  width: 15%;
+  height: 100%;
+  background: #10daf5;
+  color: blue;
+  border-radius: 0.5em;
+  margin: 1em;
+  flex: 1;
+}
+
+#articulo2:hover {
+  color: white;
+  background: black;
+}
+
+#articulo2 {
+  width: 96%;
+  height: 20%;
+  background: #0a807a;
+  color: rgba(84, 245, 205, 0.918);
+  border-radius: 1em;
+  margin: 1em;
+  flex: 1;
+}
+
+#articulo3:hover {
+  color: white;
+  background: black;
+}
+
+#articulo3 {
+  width: 96%;
+  height: 20%;
+  background: #e6e7b5;
+  color: rgba(167, 136, 51, 0.945);
+  border-radius: 1em;
+  margin: 1em;
+  flex: 1;
+}
+
+#articulo4:hover {
+  color: white;
+  background: black;
+}
+
+#articulo4 {
+  width: 96%;
+  height: 20%;
+  background: #db9443;
+  color: rgb(165, 46, 46);
+  border-radius: 1em;
+  margin: 1em;
+  flex: 1;
+}
+
+#articulo5:hover {
+  color: white;
+  background: black;
+}
+
+#articulo5 {
+  width: 96%;
+  height: 20%;
+  background: #63a170;
+  color: green;
+  border-radius: 1em;
+  margin: 1em;
+  flex: 1;
+}
+
+.title {
+  font-size: 3em;
+}
